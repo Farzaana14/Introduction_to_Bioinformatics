@@ -3,36 +3,154 @@ layout: index
 published: true
 ---
 
-Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. This guide was made using Course-in-a-Box, so what you see here is what you’ll start with. There are three modules that walk through the course creation process, all linked in the nav bar at the top of the page:
-* **[Setup](/modules/setup/getting-started/)** - Get your instance of Course-in-a-Box up and running
-* **[Content](/modules/content/markdown-and-media)** -  Update the course structure and add your copy & media
-* **[Customize](/modules/customize/favicon)** - Add some (optional) finishing touches
+This course offers a practical introduction to Pathogen Bioinformatics for Genomic Epidemiology, using both Galaxy and command line interface (CLI). It will use analysis of SARS-CoV-2 sequencing data as an example and also cover handling metadata to add context
+to the sequencing data being discussed and illustrate techniques in genomic epidemiology.
 
-<br> 
+## Programme
 
-#### Course-in-a-Box Courses We Love ❤️
-Here are some examples of Course-in-a-Box in the wild:
+The course is a two week (10 days) programme of in-person instruction combining theoretical back with practical instruction and opporunity for hands-on practice of the skills presented.
 
-* [We Are AI](https://dataresponsibly.github.io/we-are-ai/) by Center for Responsible AI
-* [How to Talk about Race](https://how-to-talk-about-race.p2pu.org/) by Amrita Patel and Denise LaForce
-* [Leveraging Learning for Life](https://leveraging-learning.p2pu.org/) by College Unbound
-* [Making and Learning](http://p2pu.github.io/makingandlearning/) by Children’s Museum of Pittsburgh
-* [Designing for Documentation and Assessment](https://playfulmit.github.io/beyond-rubrics/) by MIT Playful Journey Lab
-* [ExplOERer Course](http://www.exploerercourse.org/en/) by Gothenburg University, Open University, and CC Poland
-* [Learning about Learning Circles](https://p2pu.github.io/learning-about-learning-circles/) by P2PU
-* [Queer Cinema for High School](https://queercinema.net/) by Sarah Schrag
+<!-- LEAVE THIS TABLE ALONE - the rest of the page continues where it says BELOWTHETABLE -->
 
-<br> 
+<style>
+    td, th, table { border: 1px solid black; }
+    td, th {padding-left: 10px; padding-right: 10px; }
+    th { font-weight: bold }
+    .break { background: lightblue; }
+    .weekheader { background: green; color: white }
+</style>
 
-#### Need some help?
-Our [community forum](https://community.p2pu.org/c/tech/course-in-a-box/78) is a great place to ask questions or find help when you get stuck. Feel free to post there anytime!
+<table aria-label="Week 1 Schedule">
+  <thead>
+    <tr class="weekheader">
+      <th scope="col" rowspan="2" style="width: 100px;">TIME</th>
+      <th scope="col" colspan="5">Week 1</th>
+    </tr>
+    <tr class="weekheader">
+      <th scope="col">Mon</th>
+      <th scope="col">Tue</th>
+      <th scope="col">Wed</th>
+      <th scope="col">Thu</th>
+      <th scope="col">Fri</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <td>09:00-09:30</td>
+      <td>Welcome<br>Introduction & Icebreakers</td>
+      <td rowspan="2"> Introduction to Unix/Linux,<br>command line, shell scripting (Theory)</td>
+      <td rowspan="2"> Theory - QC & Alignment</td>
+      <td rowspan="2"> Intro to Phylogenetics</td>
+      <td rowspan="2"> Pathogenwatch & Microreact Introduction</td>
+    </tr>
+    <tr>
+      <td>09:30-11:00</td>
+      <td>Introduction to Bioinformatics</td>
+    </tr>
+    <tr class="break">
+      <td>11:00-11:30</td>
+      <td colspan="5">Break 30 minutes</td>
+    </tr>
+    <tr>
+      <td>11:30-13:00</td>
+      <td>Databases, Data Management,<br>Quality, Data Sharing</td>
+      <td>Introduction Unix/Linux,<br>command line, shell scripting (Theory)</td>
+      <td>Hands-on - QC & Alignment</td>
+      <td>Phylogenetics - Nextclade IGV</td>
+      <td>Microreact Practical</td>
+    </tr>
+      <tr class="Lunch break">
+      <td>13:00-14:00</td>
+      <td colspan="5">Lunch Break 1 Hour</td>
+    </tr>
+    <tr>
+      <td>14:00-14:30</td>
+      <td>Pathogen Surveillance<br>(Genomic Epidemiology, Sequencing, WGS)</td>
+      <td>Conda Package Management</td>
+      <td>Hands-on - QC & Alignment</td>
+      <td>Phylogenetics - Hands-on</td>
+      <td>Microreact Practical</td>
+    </tr>
+    <tr class="break">
+      <td>16:30-17:00</td>
+      <td colspan="5">Break 15 minutes (end-off)</td>
+    </tr>
+  </tbody>
+</table>
 
-You can also hire P2PU to provide support with learning design, technical setup, course customizations, or web hosting. If you’re interested in collaborating on a project, reach out to us at thepeople@p2pu.org
+<table aria-label="Week 2 Schedule">
+  <thead>
+    <tr class="weekheader">
+      <th scope="col" rowspan="2" style="width: 100px;">TIME</th>
+      <th scope="col" colspan="5">Week 2</th>
+    </tr>
+    <tr class="weekheader">
+      <th scope="col">Mon</th>
+      <th scope="col">Tue</th>
+      <th scope="col">Wed</th>
+      <th scope="col">Thu</th>
+      <th scope="col">Fri</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>09:00-09:30</td>
+      <td>Galaxy Intro 1</td>
+      <td>Galaxy Tutorial - QC</td>
+      <td>Galaxy Tutorials - visualisation</td>
+      <td>PRACTICAL SESSION<br>(Trainees to work on projects)</td>
+      <td>Project Presentations</td>
+    </tr>
+    <tr>
+      <td>10:00-11:00</td>
+      <td>Galaxy Intro 1 - Practical</td>
+      <td>Galaxy Tutorial - Alignment</td>
+      <td>Galaxy Tutorials - Pipelines Workflows</td>
+      <td>Explain the outline of project requirements</td>
+      <td>Certificates</td>
+    </tr>
+    <tr class="break">
+      <td>11:00-11:30</td>
+      <td colspan="5">Break 30 minutes</td>
+    </tr>
+    <tr>
+      <td>11:30-13:00</td>
+      <td>Galaxy Intro 1 - Practical</td>
+      <td>Galaxy Tutorial - visualisation</td>
+      <td>Explain the outline of project requirements</td>
+      <td>PRACTICAL SESSION<br>(Trainees to work on projects)</td>
+      <td>Certificates</td>
+    </tr>
+    <tr>
+      <tr class="Lunch break">
+      <td>13:00-14:00</td>
+      <td colspan="5">Lunch Break 1 Hour</td>
+    </tr>
+    <tr>
+      <td>14:00-14:30</td>
+      <td>Galaxy Intro 1 - Practical</td>
+      <td>Galaxy Tutorial - visualisation</td>
+      <td>Explain the outline of project requirements</td>
+      <td>Practical Session<br>(Trainees to work on projects)</td>
+      <td>Certificates</td>
+    </tr>
+    <tr class="break">
+      <td>16:30-17:00</td>
+      <td colspan="5">Break 15 minutes (end-off)</td>
+    </tr>
+  </tbody>
+</table>
 
-<br> 
+<!-- BELOWTHETABLE -->
 
-#### About Course-in-a-Box
+## Partners
 
-P2PU created Course-in-a-Box in 2014 as a free and lightweight tool for building online courses. We wanted to preserve the modular structure of MOOCs outside of the bulky (and often proprietary) environment of learning/content management systems. Course-in-a-Box is open-source, and we welcome contributions [on our Github repo](https://github.com/p2pu/course-in-a-box).
+This course is being organised by [SANBI](https://www.sanbi.ac.za/) (the South African National Bioinformatics Institute) at the 
+[University of the Western Cape (UWC)](https://www.uwc.ac.za/) in collaboration with [Africa CDC](https://africacdc.org) (the Africa Centres for Disease Control and Prevention), part of the African Union (AU).
 
-p.s. Designing a course for learning circles? [Check out the Learning Circle Course Creation guide](https://docs.p2pu.org/courses/creating-courses) for some best practices on course design.
+<p float="left">
+  <img src="img/african_union_logo.svg" width="24%" align="top">
+  <img src="img/africacdc_logo.svg" width="24%" align="top">
+  <img src="img/uwc_logo.svg" width="24%" align="top">
+  <img src="img/sanbi_logo.svg" width="24%" align="top">
+</p>
