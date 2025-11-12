@@ -3,8 +3,7 @@ layout: index
 published: true
 ---
 
-This course offers a practical introduction to Pathogen Bioinformatics for Genomic Epidemiology, using both Galaxy and command line interface (CLI). It will use analysis of SARS-CoV-2 sequencing data as an example and also cover handling metadata to add context
-to the sequencing data being discussed and illustrate techniques in genomic epidemiology.
+This course provides a practical beginner level introduction to Bioinformatics, integrating both the Command Line Interface (CLI) and Galaxy platforms. Participants will gain hands-on experience by analyzing Monkeypox virus sequencing data, exploring key steps in data processing, quality control, and analysis. The course also includes an introduction to phylogenetic visualization techniques to interpret genomic relationships and demonstrate applications in genomic epidemiology.
 
 ## Programme
 
@@ -142,15 +141,3 @@ The course is a two week (10 days) programme of in-person instruction combining 
 </table>
 
 <!-- BELOWTHETABLE -->
-
-## Partners
-
-This course is being organised by [SANBI](https://www.sanbi.ac.za/) (the South African National Bioinformatics Institute) at the 
-[University of the Western Cape (UWC)](https://www.uwc.ac.za/) in collaboration with [Africa CDC](https://africacdc.org) (the Africa Centres for Disease Control and Prevention), part of the African Union (AU).
-
-<p float="left">
-  <img src="img/african_union_logo.svg" width="24%" align="top">
-  <img src="img/africacdc_logo.svg" width="24%" align="top">
-  <img src="img/uwc_logo.svg" width="24%" align="top">
-  <img src="img/sanbi_logo.svg" width="24%" align="top">
-</p>
